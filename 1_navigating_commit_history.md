@@ -21,11 +21,11 @@ A good rule of thumb is to make one commit per logical change. For example, if y
 ## It is important to know how to open text editor from either windows or linux machine
 **Atom** 
 
-On windows, in git terminal type in
+On windows, in git terminal type in  
 `echo 'alias atom="C:/Users/zding5/AppData/local/atom/atom.exe"' >> ~/.bashrc`
 
 then type `atom` to open program on windows
 # 5. Install git
-to check git version:
+to check git version:  
 `git --version`
 
