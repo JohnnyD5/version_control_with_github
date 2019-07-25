@@ -61,4 +61,14 @@ To copy and paste within the terminal on Ubuntu, use `Ctrl+Shift+C` and `Ctrl+Sh
 
 ## Using `git log` and `git diff`
 As a reminder, running `git log` will show a list of the recent commits with information about them, including commit IDs. Running `git diff` followed by two commit IDs will compare the two versions of the code in those commits. 
+# 7. Git Errors and Warnings Solution
+## Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
 
+## You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+## Panic! (the 'impossible' happened)
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+**Takeaway** We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
