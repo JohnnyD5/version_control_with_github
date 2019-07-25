@@ -59,8 +59,6 @@ To copy and paste within the terminal on Mac, use `Cmd+C` and `Cmd+V`
 ### Ubuntu
 To copy and paste within the terminal on Ubuntu, use `Ctrl+Shift+C` and `Ctrl+Shift+V`.
 
-Using git log and git diff
-As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs. Running git diff followed by two commit IDs will compare the two versions of the code in those commits. If you need a refresher, you may want to rewatch this video.
+## Using `git log` and `git diff`
+As a reminder, running `git log` will show a list of the recent commits with information about them, including commit IDs. Running `git diff` followed by two commit IDs will compare the two versions of the code in those commits. 
 
-Entering commit IDs
-If it is easier, you may enter the first four or more characters of the commit ID rather than pasting the entire ID.
