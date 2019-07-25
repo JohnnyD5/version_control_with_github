@@ -25,4 +25,7 @@ On windows, in git terminal type in
 `echo 'alias atom="C:/Users/zding5/AppData/local/atom/atom.exe"' >> ~/.bashrc`
 
 then type `atom` to open program on windows
+# 5. Install git
+to check git version:
+`git --version`
 
