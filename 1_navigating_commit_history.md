@@ -72,3 +72,34 @@ HEAD is what Git calls the commit you are currently on. You can “detach” the
 This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
 
 **Takeaway** We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+# 8. Git Checkout
+<https://www.youtube.com/watch?v=enodgfNvUsc>
+
+We can temporarily change our files back tto how they were at the time of any commit. This is called a git checkout. It's like restoring a previous version.
+
+In git, checking out a commit means resetting all of your files to how they were at the time that commit was made.
+
+## why checkout out a previous version?
+If a bug was introduced, but you're not sure which commit introduced it, you can test whether a commit has the bug by checking out that commit and running the code
+
+## walkthrough
+for the asteroids folder
+```
+git log > gitlog.txt
+```
+We think the Revert Control was a working commit. So check out the commit
+```
+git checkout b0678b161fcf74467ed3a63110557e3d6229cfa6
+```
+`b0678b161fcf74467ed3a63110557e3d6229cfa6` is the commit ID
+
+Now you can go to the html file to see what happens
+
+You can still get back to the most recent commit by typing git checkout followed by its ID
+
+But what if you don't remember the ID?
+
+In next md file, you'll learn another way to switch between commits without knowing their IDs
+
+
