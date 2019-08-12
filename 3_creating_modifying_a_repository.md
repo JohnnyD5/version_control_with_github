@@ -74,3 +74,26 @@ git checkout `branchname`
 ```
 make changes
 commit the changes
+# 10. when to create branch
+* when I want to create something different
+* context switching
+* master branch as the production quality branch that never breaks, always Works
+* development branch where active work is taking place on your project
+* experimental branch
+* unique feature branch
+* you can share experimental and unique feature branch in public with the understanding that this isn't production quality work just yet
+* Branch is good to collaborate publicly and with yourself.
+* Brach allows the ability to context switch and go back to where to fix the bug
+* Use branch to keep things organized when working with others
+# 11. Viewing the commit history
+The full command Caroline types to see the visual representation of the commit
+ ```
+history is git log --graph --oneline master coins.
+```
+# 12. go to a commit and create a branch
+```
+git checkout `commitID`
+```
+```
+git checkout -b new_branch_name
+```
