@@ -68,5 +68,9 @@ git chekcout master
 ```
 git branch `branchname`
 ```
+switch to the branch
+```
+git checkout `branchname`
+```
 make changes
 commit the changes
