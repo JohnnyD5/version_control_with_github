@@ -20,3 +20,7 @@ git status
 ```
 # 3. Staging area
 ![pic1](pic1.png)
+Add files to staging area
+```
+git add `filename`
+```
