@@ -64,3 +64,9 @@ git chekcout master
 ```
 # 8. Branches
 ![pic3](pic/pic3.png)
+# 9. Create new Branches
+```
+git branch `branchname`
+```
+make changes
+commit the changes
