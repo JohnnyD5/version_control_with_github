@@ -1,9 +1,9 @@
-# 1. What makes a repository a repository? 
+# 1. What makes a repository a repository?
 git repository stores lots of megadata of the history of the data and a hidden file `.git`
 
 To show hidden files:
 ```
-ls -a 
+ls -a
 ```
 # 2. Initializing a repository
 ## Git repositories and directories
@@ -19,7 +19,7 @@ Use git status to track status of files
 git status
 ```
 # 3. Staging area
-![pic1](pic1.png)
+![pic1](pic/pic1.png)
 Add files to staging area
 ```
 git add `filename`
@@ -52,7 +52,7 @@ git commit
 git log
 ```
 # 6. git diff
-![pic2](pic2)
+![pic2](pic/pic2)
 # 7. git checkout
 use git checkout commitID to checkout a previous commit
 ```
@@ -62,3 +62,4 @@ use git chekcout master to return to the master commit
 ```
 git chekcout master
 ```
+# 8. Branches
