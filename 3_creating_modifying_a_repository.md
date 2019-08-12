@@ -97,3 +97,18 @@ git checkout `commitID`
 ```
 git checkout -b new_branch_name
 ```
+# 13. merge branch into master
+```
+git checkout master
+```
+```
+git merge master branch_name
+```
+## delete branch label
+```
+git branch -d branch_name
+```
+# 14. merge conflict
+Need manually solve the conflict
+# 15. Concept map
+![pic4](pic/pic4.png)
