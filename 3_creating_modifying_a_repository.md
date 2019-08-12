@@ -18,3 +18,5 @@ Use git status to track status of files
 ```
 git status
 ```
+# 3. Staging area
+![pic1](pic1.png)
