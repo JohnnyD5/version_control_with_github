@@ -52,7 +52,7 @@ git commit
 git log
 ```
 # 6. git diff
-![pic2](pic/pic2)
+![pic2](pic/pic2.png)
 # 7. git checkout
 use git checkout commitID to checkout a previous commit
 ```
@@ -63,3 +63,4 @@ use git chekcout master to return to the master commit
 git chekcout master
 ```
 # 8. Branches
+![pic3](pic/pic3.png)
