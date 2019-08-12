@@ -32,3 +32,21 @@ You can also specify a commit message via the command line by running git commit
 
 ## Commit message style
 While commit message style varies from person to person, this [style guide](http://udacity.github.io/git-styleguide/) describes some common best practices when writing commit messages.
+# 5. add file and commit procedures
+1. add file to staging area
+```
+git add `filename`
+```
+2. Check status
+```
+git status
+```
+3. make commit
+```
+git commit
+```
+4. write description in commit log
+5. can use git log to check commit
+```
+git log
+```
