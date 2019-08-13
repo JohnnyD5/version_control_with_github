@@ -1,11 +1,10 @@
 # 1. Syncing repositories
-Two ways:
+If you made changes on local folders and want to update github. Two ways:
 1. Push through `Github Desktop` app
 2. Use git bash
 ```
 git push origin master
 ```
-If you made changes on local folders and want to update github.
 # 2. See remote repository
 ```
 git remote -v
