@@ -52,3 +52,11 @@ git push origin `branch_name`
 
 # 7. Concept map
 ![pic5](pic/pic5.png)
+
+# 8. About fork
+Fork the repository and clone your fork
+Now that you've learned how to fork a repository, push changes to your fork, and make a pull request, you’re ready to contribute to the create-your-own-adventure story that you saw at the beginning of the lesson. To do this, first you should fork this repository. Then clone your fork, and make a branch to make your changes in.
+
+*Note*: You could make your changes directly to the master branch in your fork, but when contributing to a public repository, it’s standard practice to make the changes in a non-master branch within the fork. This way, you can easily keep your master branch up-to-date with master of the original repository, and merge changes from master into your branch when you are ready.
+
+*Note for Windows Users*: The story has grown so large that it exceeds Windows' path length limit. If you encounter an error when cloning you can work around it by modifying a configuration setting. Run this command in git bash: `git config --system core.longpaths true`.
