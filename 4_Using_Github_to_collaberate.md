@@ -20,3 +20,20 @@ git pull
 3. Click `collaborators`
 4. Add github username
 5. Click `Add collaborator` button
+# 5. git merge
+You made some changes on your local file, and on github
+
+To merge all changes:
+```
+git pull origin master
+```
+
+If there are conflicts:
+1. solve the conflict
+2.
+```
+git commit
+```
+3. ```
+git push
+```
