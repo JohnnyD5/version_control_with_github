@@ -33,8 +33,9 @@ git pull origin master
 
 If there are conflicts:
 1. solve the conflict
-2. ```git commit```
-3. ```git push```
+2. use git add on conflicting files before committing
+3. ```git commit```
+4. ```git push```
 
 # 6. Make a pull request
 1. create a branch locally
@@ -48,3 +49,6 @@ git push origin branch_name
 ```
 4. create a pull request from the branch into master or other's repository
 5. wait for response if it is other's repository or commit merge if it's your own repository.  
+
+# 7. Concept map
+![pic5](pic/pic5.png)
