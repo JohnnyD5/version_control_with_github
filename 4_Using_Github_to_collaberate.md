@@ -5,6 +5,7 @@ If you made changes on local folders and want to update github. Two ways:
 ```
 git push origin master
 ```
+
 # 2. See remote repository
 ```
 git remote -v
@@ -14,12 +15,14 @@ If you made changes on github and want to update local folders
 ```
 git pull  
 ```
+
 # 4. Add collaborator on Github
 1. Go to project folder on Github
 2. Go to settings
 3. Click `collaborators`
 4. Add github username
 5. Click `Add collaborator` button
+
 # 5. Git merge
 You made some changes on your local file, and some changes on github
 
