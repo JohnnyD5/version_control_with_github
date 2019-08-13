@@ -60,3 +60,19 @@ Now that you've learned how to fork a repository, push changes to your fork, and
 *Note*: You could make your changes directly to the master branch in your fork, but when contributing to a public repository, it’s standard practice to make the changes in a non-master branch within the fork. This way, you can easily keep your master branch up-to-date with master of the original repository, and merge changes from master into your branch when you are ready.
 
 *Note for Windows Users*: The story has grown so large that it exceeds Windows' path length limit. If you encounter an error when cloning you can work around it by modifying a configuration setting. Run this command in git bash: `git config --system core.longpaths true`.
+
+# 9. Syncing a fork
+1. Clone the fork to local project
+2. Fetch the branches from upstream repository
+```
+git fetch upstream
+```
+3. Checkout fork's local `master` branch
+```
+git checkout master
+```
+4. Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
+```
+git merge upstream/master
+```
+If your local branch didn't have any unique commits, Git will instead perform a "fast-forward".
