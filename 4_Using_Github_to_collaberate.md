@@ -5,12 +5,13 @@ Two ways:
 ```
 git push origin master
 ```
-
+If you made changes on local folders and want to update github.
 # 2. See remote repository
 ```
 git remote -v
 ```
-# 3. pulling charges
+# 3. pulling changes
+If you made changes on github and want to update local folders
 ```
 git pull  
 ```
@@ -21,7 +22,7 @@ git pull
 4. Add github username
 5. Click `Add collaborator` button
 # 5. git merge
-You made some changes on your local file, and on github
+You made some changes on your local file, and some changes on github
 
 To merge all changes:
 ```
