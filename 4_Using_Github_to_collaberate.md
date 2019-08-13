@@ -20,7 +20,7 @@ git pull
 3. Click `collaborators`
 4. Add github username
 5. Click `Add collaborator` button
-# 5. git merge
+# 5. Git merge
 You made some changes on your local file, and some changes on github
 
 To merge all changes:
@@ -32,3 +32,9 @@ If there are conflicts:
 1. solve the conflict
 2. ```git commit```
 3. ```git push```
+# 6. Make a pull request
+1. create a branch locally
+2. make changes to a file or files and make a commit
+3. push the branch to your fork or github repository
+4. create a pull request from the branch into master or other's repository
+5. wait for response if it is other's repository or commit merge if it's your own repository.  
