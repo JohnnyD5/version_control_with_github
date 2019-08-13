@@ -10,3 +10,13 @@ git push origin master
 ```
 git remote -v
 ```
+# 3. pulling charges
+```
+git pull  
+```
+# 4. Add collaborator on Github
+1. Go to project folder on Github
+2. Go to settings
+3. Click `collaborators`
+4. Add github username
+5. Click `Add collaborator` button
