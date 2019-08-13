@@ -30,10 +30,5 @@ git pull origin master
 
 If there are conflicts:
 1. solve the conflict
-2.
-```
-git commit
-```
-3. ```
-git push
-```
+2. ```git commit```
+3. ```git push```
