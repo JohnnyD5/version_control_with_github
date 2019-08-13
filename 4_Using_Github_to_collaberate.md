@@ -35,7 +35,13 @@ If there are conflicts:
 
 # 6. Make a pull request
 1. create a branch locally
+```
+git branch `branch_name`
+```
 2. make changes to a file or files and make a commit
 3. push the branch to your fork or github repository
+```
+git push origin branch_name
+```
 4. create a pull request from the branch into master or other's repository
 5. wait for response if it is other's repository or commit merge if it's your own repository.  
