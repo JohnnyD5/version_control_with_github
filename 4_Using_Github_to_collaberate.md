@@ -32,6 +32,7 @@ If there are conflicts:
 1. solve the conflict
 2. ```git commit```
 3. ```git push```
+
 # 6. Make a pull request
 1. create a branch locally
 2. make changes to a file or files and make a commit
