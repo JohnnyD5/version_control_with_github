@@ -32,6 +32,7 @@ or Use
 git commit -m "commit message"
 ```
 # Synchronize changes
+**Comments:** Here we don't use branch, we make changes directly to origin master. See detailed guide on branch to have better understanding.
 ## Uploads all local commits to github
 ```
 git push origin master
