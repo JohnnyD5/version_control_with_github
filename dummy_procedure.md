@@ -32,6 +32,10 @@ or Use
 ```
 git commit -m "commit message"
 ```
+5. To delete a file
+```
+git rm filename.extension
+```
 **Comments:** Sync every time you make changes and commits!
 # Synchronize changes
 **Comments:** Here we don't use branch, we make changes directly to origin master. See detailed guide on branch to have better understanding.
