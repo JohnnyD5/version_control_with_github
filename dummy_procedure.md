@@ -14,6 +14,7 @@ git log
 **Comments:** Using `git clone` copies all git history of the file besides the contents. Using `Download` only saves contents of the file without any git structure.
 
 # Make file and edit
+**Comments:** You need to add new file into the git structure before you can use version control on it. 
 1. Make file  
 ```
 echo "contents" > filename.extension
