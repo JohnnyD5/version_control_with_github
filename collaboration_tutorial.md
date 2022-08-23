@@ -42,7 +42,7 @@ This will forcefully delete the branch on the remote (this will not affect alrea
 
 git reflog shows the recently checked out revisions. Any branch you've had checked out in the recent repository history will also show up there. Aside from that, git fsck will be the tool of choice at any case of commit-loss in git.
 
-**As a repository owner, you got a user who made a few commits and rolled them into one pull request. You want to accept one of the commits, but reject the others. Is this possible with GitHub?
+**As a repository owner, you got a user who made a few commits and rolled them into one pull request. You want to accept one of the commits, but reject the others. Is this possible with GitHub?**
 
 Next to the `Merge pull request` button, there should be a `Use the command line` link to instructions on how to do it manually. You should follow these instructions (create new local branch and pull in their changes), but then instead of merging that whole branch back into master, you just cherry-pick the commits you want.
 
