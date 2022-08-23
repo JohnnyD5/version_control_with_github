@@ -41,3 +41,7 @@ If you also want to delete the branch on a remote host, you can do:
 This will forcefully delete the branch on the remote (this will not affect already checked-out repositiories though and won't prevent anyone with push access to re-push/create it).
 
 git reflog shows the recently checked out revisions. Any branch you've had checked out in the recent repository history will also show up there. Aside from that, git fsck will be the tool of choice at any case of commit-loss in git.
+
+## What is git rebase?
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow. The general process can be visualized as the following:
+![img](./rebase.png)
