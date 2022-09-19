@@ -1,9 +1,9 @@
 # How to re-authorize the OAuth Application 'Git Credential Manager'
 **Error Message: 
 `git clone https://github.com/sede-x/Fluidization_FCC_Design_Tools.git`  
-Cloning into 'Fluidization_FCC_Design_Tools'...  
-remote: The `sede-x' organization has enabled or enforced SAML SSO. To access  
-remote: this repository, you must re-authorize the OAuth Application `Git Credential Manager`.  
+Cloning into "Fluidization_FCC_Design_Tools"...  
+remote: The ·sede-x· organization has enabled or enforced SAML SSO.   
+To access remote: this repository, you must re-authorize the OAuth Application `Git Credential Manager`.  
 fatal: unable to access 'https://github.com/sede-x/Fluidization_FCC_Design_Tools.git/': Failure when receiving data from the peer**
 
 My company just enabled SSO for my Github Org overnight so was getting the same error running git pull. I fixed this with the following steps.
