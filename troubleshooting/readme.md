@@ -1,6 +1,6 @@
 # How to re-authorize the OAuth Application 'Git Credential Manager'
 **Error Message: 
-`git clone https://github.com/sede-x/Fluidization_FCC_Design_Tools.git`
+`git clone https://github.com/sede-x/Fluidization_FCC_Design_Tools.git`  
 Cloning into 'Fluidization_FCC_Design_Tools'...  
 remote: The `sede-x' organization has enabled or enforced SAML SSO. To access  
 remote: this repository, you must re-authorize the OAuth Application `Git Credential Manager`.  
