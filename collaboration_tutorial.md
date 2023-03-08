@@ -65,18 +65,14 @@ Rebasing is the process of moving or combining a sequence of commits to a new ba
 ![img](./pic/rebase.PNG)
 
 ## Resolve git conflict when merging
-[6:08 PM] Ding, John GSUSI-PTX/C/R
-Hi Saad
-
-[6:08 PM] Ding, John GSUSI-PTX/C/R
 If you cloned an earlier version of the main branch, created a new branch, and made some commits on that branch, but the main branch has since been updated with new changes, then your branch is now out of date and will need to be updated before you can merge your changes back into the main branch without conflicts.Here are the steps you can follow to update your branch and avoid conflicts:
-1. First, switch back to the main branch using the command git checkout main.
-2. Pull the latest changes from the remote main branch using the command git pull.
-3. Switch back to your branch using the command git checkout <your-branch-name>.
-4. Merge the changes from the updated main branch into your branch using the command git merge main.
+1. First, switch back to the main branch using the command `git checkout main`.
+2. Pull the latest changes from the remote main branch using the command `git pull`.
+3. Switch back to your branch using the command `git checkout <your-branch-name>`.
+4. Merge the changes from the updated main branch into your branch using the command `git merge main`.
 5. Resolve any conflicts that may arise during the merge process.
-6. Once the conflicts have been resolved, commit the changes using the command git commit -m "Merge changes from main branch".
-7. Finally, push your changes to the remote repository using the command git push.
+6. Once the conflicts have been resolved, commit the changes using the command `git commit -m "Merge changes from main branch"`.
+7. Finally, push your changes to the remote repository using the command `git push`.
 After completing these steps, your branch will be up to date with the latest changes from the main branch, and you should be able to merge your changes back into the main branch without conflicts.
 
 
