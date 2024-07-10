@@ -1,4 +1,13 @@
 Here is the detailed procedures of using git and version control on Linux or Mac machine without help of the github desktop app
+# How to copy a repository to a new repository
+1. Clone repository to a folder
+```
+cd existing-project
+```
+open here a git terminal
+git remote set-url origin <NEW_GIT_REPO>
+git push -u origin --all
+git push origin --tags
 # Create a repository
 1. Go to my github
 2. Under the repository name, copy HTTPS url.
